@@ -5,4 +5,6 @@ UI Automation Testing, API Testing, Frameworks with
 ```npm init```
 2. **Install cypress**
 ```npm install cypress --save-dev```
+3. **Cypress latest version**
+```npm install --save-dev cypress@latest```
 
