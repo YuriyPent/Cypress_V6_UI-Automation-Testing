@@ -29,7 +29,11 @@
 
 12. **[Cypress contains](https://docs.cypress.io/api/commands/contains#Syntax)**
 
-13. 
+13. **[Cypress document](https://docs.cypress.io/api/commands/document#Syntax)**
+
+14. **[Cypress title](https://docs.cypress.io/api/commands/title#Syntax)**
+
+15. **[Cypress url](https://docs.cypress.io/api/commands/url#Syntax)**
 
        
 
