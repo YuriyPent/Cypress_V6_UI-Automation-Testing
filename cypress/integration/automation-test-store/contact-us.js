@@ -20,9 +20,9 @@ describe("Test Contact Us form via Automation Test Store", () => {
 
         cy.visit("https://www.automationteststore.com/");
         cy.get('.info_links_footer > :nth-child(5) > a').click();
-        cy.get('#ContactUsFrm_first_name').type("Joe");
-        cy.get('#ContactUsFrm_email').type("joe_blog01@gmail.com");
-        cy.get('#ContactUsFrm_enquiry').type("Do you provide additional on bulk orders?");
-        cy.get('.col-md-6 > .btn').click();
+        cy.get('[id="ContactUsFrm_first_name"]').type("Joe");
+        cy.get('[id="ContactUsFrm_email"]').type("joe_blog01@gmail.com");
+        cy.get('[id="ContactUsFrm_enquiry"]').type("Do you provide additional on bulk orders?");
+        cy.get('button[title="Submit"]').click();
     })
 })
