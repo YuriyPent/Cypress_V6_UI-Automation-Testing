@@ -19,7 +19,7 @@ describe("Test Contact Us form via Automation Test Store", () => {
         }).as('get_id');
 
         cy.visit("https://www.automationteststore.com/");
-        cy.get('.info_links_footer > :nth-child(5) > a').click();
+        cy.xpath('(//*[text()="Contact Us"])[2]').click();
         cy.get('[id="ContactUsFrm_first_name"]').type("Joe");
         cy.get('[id="ContactUsFrm_email"]').type("joe_blog01@gmail.com");
         cy.get('[id="ContactUsFrm_enquiry"]').type("Do you provide additional on bulk orders?");

@@ -2,11 +2,24 @@
 ### UI Automation Testing, API Testing, Frameworks with
 
 1. **Create `package.json`**
-```npm init```
+    ```npm init```
+    
 2. **Install cypress**
-```npm install cypress --save-dev```
+    ```npm install cypress --save-dev```
+    
 3. **Cypress latest version**
-```npm install --save-dev cypress@latest```
+    ```npm install --save-dev cypress@latest```
+    
 4. **Open cypress**
-```./node_modules/.bin/cypress open```
+    ```./node_modules/.bin/cypress open```
+    
+5. **[CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)**
+
+6. **[XPath Syntax](https://www.w3schools.com/xml/xpath_syntax.asp)**
+
+7. **[Cypress Best Practices](https://docs.cypress.io/guides/references/best-practices#Organizing-Tests-Logging-In-Controlling-State)**
+
+8. **[Cypress xpath](https://github.com/cypress-io/cypress-xpath)**
+
+     
 
