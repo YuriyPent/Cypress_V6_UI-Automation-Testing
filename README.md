@@ -21,5 +21,15 @@
 
 8. **[Cypress xpath](https://github.com/cypress-io/cypress-xpath)**
 
-     
+9. **[Chai Assertion Library](https://www.chaijs.com/)**
+
+10. **[Cypress Assertions](https://docs.cypress.io/guides/references/assertions#Chai)**
+
+11. **[Chai-jQuery](https://docs.cypress.io/guides/references/assertions#Chai-jQuery)**
+
+12. **[Cypress contains](https://docs.cypress.io/api/commands/contains#Syntax)**
+
+13. 
+
+       
 
