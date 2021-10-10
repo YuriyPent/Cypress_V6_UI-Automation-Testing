@@ -29,7 +29,10 @@ describe("Test Contact Us form via Automation Test Store", () => {
         // }).as('get_id');
 
         cy.visit("https://www.automationteststore.com/");
-        cy.get("a[href$='contact']").click();
+        cy.get("a[href$='contact']").click()
+            .then(function (linkText) {
+                cy.log('Clicked on link using text: ' + linkText.text())
+            });
         cy.xpath('//h2[starts-with(text(), "Con")]/following-sibling::ul/li[1]').contains("+123 456 7890");
         cy.xpath('//h2[starts-with(text(), "Con")]/following-sibling::ul/li[2]').contains("admin@automationteststore.com");
         cy.get('#ContactUsFrm_first_name').type("Joe");
