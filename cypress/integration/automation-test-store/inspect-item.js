@@ -1,15 +1,18 @@
 /// <reference types="cypress" />
 
 describe("Inspect Automation Test Store items using chain of commands", () => {
-    it("Click on the first item using item text", () => {
+    it.only("Click on the first item using item text", () => {
 
         cy.visit("/");
-        cy.get('.prdocutname').contains('Skinsheen Bronzer Stick').click();
+        cy.get('.prdocutname').contains('Skinsheen Bronzer Stick').click()
+            .then(function (itemHeaderText) {
+                cy.log('Selected the following item: ' + itemHeaderText.text())
+            });
     });
 
-    it.only("Click on the first item using item index", () => {
+    it("Click on the first item using item index", () => {
 
         cy.visit("/");
-        cy.get('.fixed_wrapper').find('.prdocutname').eq(0).click();      
+        cy.get('.fixed_wrapper').find('.prdocutname').eq(0).click();
     });
 })

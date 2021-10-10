@@ -24,4 +24,6 @@
 17. **[Chains of Commands](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Chains-of-Commands)**
 18. **[Commands Are Asynchronous](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Commands-Are-Asynchronous)**
 19. **[log](https://docs.cypress.io/api/commands/log)**
-20. 
+20. **[Commands Are Promises](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Commands-Are-Promises)**
+21. **[then](https://docs.cypress.io/api/commands/then#Syntax)**
+
