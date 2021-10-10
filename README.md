@@ -35,5 +35,9 @@
 
 15. **[Cypress url](https://docs.cypress.io/api/commands/url#Syntax)**
 
+16. **[Command Line](https://docs.cypress.io/guides/guides/command-line#Installation)**
+
+17. **[Chains of Commands](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Chains-of-Commands)**
+
        
 
