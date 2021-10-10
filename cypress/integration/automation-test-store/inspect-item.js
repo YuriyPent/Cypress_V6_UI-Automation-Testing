@@ -5,6 +5,11 @@ describe("Inspect Automation Test Store items using chain of commands", () => {
 
         cy.visit("/");
         cy.get('.prdocutname').contains('Skinsheen Bronzer Stick').click();
-       
-    })
+    });
+
+    it.only("Click on the first item using item index", () => {
+
+        cy.visit("/");
+        cy.get('.fixed_wrapper').find('.prdocutname').eq(0).click();      
+    });
 })
