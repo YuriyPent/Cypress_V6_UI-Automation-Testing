@@ -27,5 +27,6 @@
 20. **[Commands Are Promises](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Commands-Are-Promises)**
 21. **[then](https://docs.cypress.io/api/commands/then#Syntax)**
 22. **[Closures](https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Closures)**
-23. 
+23. **[Aliases](https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Aliases)**
+24. **[invoke](https://docs.cypress.io/api/commands/invoke#Syntax)**
 
