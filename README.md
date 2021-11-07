@@ -37,4 +37,6 @@
 28. **[trigger](https://docs.cypress.io/api/commands/trigger)**
 29. **[Traversal](https://example.cypress.io/commands/traversal)**
 30. **[cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload)**
+31. **[Mocha](https://docs.cypress.io/guides/references/bundled-tools#Mocha)**
+32. **[Hooks](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Hooks)**
 
