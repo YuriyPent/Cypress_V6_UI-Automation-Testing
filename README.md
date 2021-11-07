@@ -30,5 +30,7 @@
 23. **[Aliases](https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Aliases)**
 24. **[invoke](https://docs.cypress.io/api/commands/invoke#Syntax)**
 25. **[jQuery removeAttr() Method](https://www.w3schools.com/jquery/html_removeattr.asp)**
-26. 
+26. **[scrollIntoView](https://docs.cypress.io/api/commands/scrollintoview#Syntax)**
+27. **[trigger](https://docs.cypress.io/api/commands/trigger)**
+28. 
 
