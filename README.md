@@ -32,5 +32,6 @@
 25. **[jQuery removeAttr() Method](https://www.w3schools.com/jquery/html_removeattr.asp)**
 26. **[scrollIntoView](https://docs.cypress.io/api/commands/scrollintoview#Syntax)**
 27. **[trigger](https://docs.cypress.io/api/commands/trigger)**
-28. 
+28. **[Traversal](https://example.cypress.io/commands/traversal)**
+29. 
 
