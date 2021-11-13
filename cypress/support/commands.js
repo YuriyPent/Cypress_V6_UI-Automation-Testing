@@ -27,7 +27,7 @@ Cypress.Commands.add("selectProduct", productName => {
         }
     });
 })
-
+//
 Cypress.Commands.add("webdriverUni_ContactForm_Submission", (firstName, lastName, email, comment, $selector, textToLocate) => {
     cy.get('[name="first_name"]').type(firstName);
     cy.get('[name="last_name"]').type(lastName);
@@ -37,6 +37,14 @@ Cypress.Commands.add("webdriverUni_ContactForm_Submission", (firstName, lastName
     cy.get($selector).contains(textToLocate);
 })
 //
+Cypress.Commands.add("addProductToBasket", productName => {
+    cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
+        if ($el.text() === productName) {
+            cy.log($el.text())
+            cy.get('.productcart').eq(index).click();
+        }
+    });
+});
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-file-upload';
