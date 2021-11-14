@@ -2,12 +2,14 @@
 
 describe("Test Contact Us form via WebdriverUni", () => {
 
-    beforeEach(function () {
-        cy.fixture('example').then(function (data) {
+    before(function () {
+        cy.fixture("example").then(function (data) {
             globalThis.data = data;
-        })
-        cy.visit("http://www.webdriveruniversity.com");
-        cy.get('#contact-us').invoke('removeAttr', 'target').click({ force: true });
+        });
+    });
+
+    beforeEach(function () {
+        cy.visit(Cypress.env("webdriveruni_homepage") + "/Contact-Us/contactus.html");
     });
 
     it("Should be able to submit a successful submission via contact us form", () => {

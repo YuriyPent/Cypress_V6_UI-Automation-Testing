@@ -20,6 +20,14 @@
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
 //
+Cypress.Commands.add("navigateTo_WebdriverUni_Homepage", () => {
+    cy.visit("/")
+})
+
+Cypress.Commands.add("navigateTo_WebdriverUni_Checkbox_Page", () => {
+    cy.visit("/" + "/Dropdown-Checkboxes-RadioButtons/index.html")
+})
+
 Cypress.Commands.add("selectProduct", productName => {
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
         if ($el.text().includes(productName)) {
@@ -27,7 +35,7 @@ Cypress.Commands.add("selectProduct", productName => {
         }
     });
 })
-//
+
 Cypress.Commands.add("webdriverUni_ContactForm_Submission", (firstName, lastName, email, comment, $selector, textToLocate) => {
     cy.get('[name="first_name"]').type(firstName);
     cy.get('[name="last_name"]').type(lastName);
@@ -36,7 +44,7 @@ Cypress.Commands.add("webdriverUni_ContactForm_Submission", (firstName, lastName
     cy.get('[type="submit"]').click();
     cy.get($selector).contains(textToLocate);
 })
-//
+
 Cypress.Commands.add("addProductToBasket", productName => {
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
         if ($el.text() === productName) {
