@@ -5,7 +5,7 @@ class AutoStore_HairCare_Po {
                 // debugger
             })
         })
-        cy.get('.dropdown-toggle > .fa').click().debug();
+        cy.get('.dropdown-toggle > .fa').click(); // .debug();
     }
 }
 export default AutoStore_HairCare_Po;
