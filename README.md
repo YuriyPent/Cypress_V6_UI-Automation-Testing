@@ -40,4 +40,6 @@
 31. **[Mocha](https://docs.cypress.io/guides/references/bundled-tools#Mocha)**
 32. **[Hooks](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Hooks)**
 33. **[fixture](https://docs.cypress.io/api/commands/fixture#Syntax)**
+34. **[pause](https://docs.cypress.io/api/commands/pause)**
+35. **[wait](https://docs.cypress.io/api/commands/wait#Syntax)**
 
