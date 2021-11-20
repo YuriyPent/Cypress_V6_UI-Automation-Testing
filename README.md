@@ -42,4 +42,5 @@
 33. **[fixture](https://docs.cypress.io/api/commands/fixture#Syntax)**
 34. **[pause](https://docs.cypress.io/api/commands/pause)**
 35. **[wait](https://docs.cypress.io/api/commands/wait#Syntax)**
+36. **[Using-debugger](https://docs.cypress.io/guides/guides/debugging#Using-debugger)**
 
