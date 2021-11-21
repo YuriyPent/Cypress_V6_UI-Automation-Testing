@@ -46,3 +46,4 @@
 36. **[wait](https://docs.cypress.io/api/commands/wait#Syntax)**
 37. **[Using-debugger](https://docs.cypress.io/guides/guides/debugging#Using-debugger)**
 38. **[Screenshots](https://docs.cypress.io/guides/references/configuration#Screenshots)**
+39. **[viewport](https://docs.cypress.io/api/commands/viewport#Syntax)**
