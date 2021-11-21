@@ -50,3 +50,4 @@
 40. **[clearCookies](https://docs.cypress.io/api/commands/clearcookies#Syntax)**
 41. **[clearLocalStorage](https://docs.cypress.io/api/commands/clearlocalstorage#Syntax)**
 42. **[dashboard](https://www.cypress.io/dashboard/)**
+43. **[npx](https://www.npmjs.com/package/npx)**
