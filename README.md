@@ -51,3 +51,26 @@
 41. **[clearLocalStorage](https://docs.cypress.io/api/commands/clearlocalstorage#Syntax)**
 42. **[dashboard](https://www.cypress.io/dashboard/)**
 43. **[npx](https://www.npmjs.com/package/npx)**
+44. **[Multiple-reporters](https://docs.cypress.io/guides/tooling/reporters#Multiple-reporters)**
+    • `npm install --save-dev cypress-multi-reporters mocha-junit-reporter`
+    • Config cypress.json
+    ```json
+    {
+      "reporter": "cypress-multi-reporters",
+      "reporterOptions": {
+        "configFile": "reporter-config.json"
+      }
+    }
+    ```
+    • Add reporter-config.json
+    ```json
+    {
+      "reporterEnabled": "spec, mocha-junit-reporter",
+      "mochaJunitReporterReporterOptions": {
+        "mochaFile": "cypress/results/results-[hash].xml"
+      }
+    }
+    ```
+    • `npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator`
+    • `npm run triggerAllTests-headless`
+45.
