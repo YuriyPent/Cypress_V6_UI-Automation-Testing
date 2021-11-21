@@ -47,3 +47,5 @@
 37. **[Using-debugger](https://docs.cypress.io/guides/guides/debugging#Using-debugger)**
 38. **[Screenshots](https://docs.cypress.io/guides/references/configuration#Screenshots)**
 39. **[viewport](https://docs.cypress.io/api/commands/viewport#Syntax)**
+40. **[clearCookies](https://docs.cypress.io/api/commands/clearcookies#Syntax)**
+41. **[clearLocalStorage](https://docs.cypress.io/api/commands/clearlocalstorage#Syntax)**
