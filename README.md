@@ -4,22 +4,16 @@
 
 1. **Create `package.json`**
    `npm init`
-   
 2. **Install cypress**
    `npm install cypress --save-dev`
-   
 3. **Cypress latest version**
    `npm install --save-dev cypress@latest`
-   
 4. **Open cypress**
    `./node_modules/.bin/cypress open`
-   
 5. **cypress-file-upload**
    `npm install --save-dev cypress-file-upload`
-   
 6. **headless**  
    `./node_modules/.bin/cypress run --spec cypress/integration/webdriver-uni/contact-us.js`
-   
 7. **[CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)**
 
 8. **[XPath Syntax](https://www.w3schools.com/xml/xpath_syntax.asp)**
@@ -116,7 +110,6 @@
     ```
     • `npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator`
     • `npm run triggerAllTests-headless`
-    
 45. **[Switch-between-multiple-configuration-files](https://docs.cypress.io/api/plugins/configuration-api#Switch-between-multiple-configuration-files)**
 
     `cypress run --env configFile=staging`
@@ -163,4 +156,4 @@
     }
     ```
 
-46. 
+46. `java -jar -Dfile.encoding=UTF-8 jenkins.war`
