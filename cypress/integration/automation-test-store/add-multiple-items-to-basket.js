@@ -19,7 +19,14 @@ describe("Add multiple items to basket", () => {
     autoStore_Homepage_PO.clickOn_HairCare_Link();
   });
 
-  it("Add specific items to basket", () => {
-    autoStore_HairCare_PO.addHairCareProductsToBasket();
-  });
+  it("Add specific items to basket",
+    {
+      // Customize retry attempts for an individual test
+      retries: {
+        runMode: 2,
+        openMode: 1,
+      },
+    }, () => {
+      autoStore_HairCare_PO.addHairCareProductsToBasket();
+    });
 });

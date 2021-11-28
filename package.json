@@ -7,7 +7,7 @@
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-headed": "npx cypress run --headed",
     "triggerAllTests-chrome": "npx cypress run --browser chrome",
-    "triggerAllTests-dashboard": "npx cypress run --record --key 8ea00e6c-0795-4bca-ad07-ed0a158d3f30",
+    "triggerAllTests-dashboard": "npx cypress run --record --key 29961390-87a7-4483-995e-1ff6496c32b4",
     "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/integration/webdriver-uni/*",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/YuriyPent/Cypress_V6_UI-Automation-Testing#readme",
   "devDependencies": {
-    "cypress": "^9.0.0",
+    "cypress": "^9.1.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-multi-reporters": "^1.5.0",
     "cypress-xpath": "^1.6.2",
